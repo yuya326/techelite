@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header_menu">
+            <a href="index.html">ダミーサイト</a>
+            <ul>
+                <li>
+                    <a href="#about">我が社について</a>
+                </li>
+                <li>
+                    <a href="#service">サービス</a>
+                </li>
+                <li>
+                    <a href="#contact">お問い合せ</a>
+                </li>
+                <span class="nav_toggle">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </ul>
+        </div>
+        <nav class="nav">
+            <ul class="nav_menu_ul">
+                <li class="nav_menu_li"><a href="#about">我が社について</a></li>
+                <li class="nav_menu_li"><a href="#service">サービス</a></li>
+                <li class="nav_menu_li"><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background">
+        <div class="center_text">
+            ダミーサイトへようこそ
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="about_title">我が社について</div>
+        <div class="about_explanation">TechEliteは、顧客に自信を持って<span class="underline"><span class="shrink">「</span>納品<span class="shrink">」</span></span>ができるレベルのLPが作れるようになります。</div>
+    </div>
+    <div id="service" class="service">サービス</div> 
+    <div class="service_menu">
+        <div id="autoClick" class="production"data-content="WEB制作の説明">WEB制作</div>
+        <div class="consulting"data-content="SEOコンサルの説明">SEOコンサル</div>
+        <div class="development"data-content="スマホアプリ開発の説明">スマホアプリ開発</div>
+    </div>
+    <div class="explanation_box">
+        <div class="service_explanation"></div>
+    </div>
+    <div id="contact" class="contact">お問い合せ</div> 
+    <form action="thanks.html" method="get">
+        <div>
+            <label for="name">お名前<span class="required">*必須</span></label>
+            <input type="text" name="name" required placeholder="例)田中 太郎">
+        </div>
+        <div>
+            <label for="prefectures">お住いの都道府県<span class="required">*必須</span></label>
+            <select name="prefectures" id="prefectures" required>
+                <option value="">---</option>
+                <option value="hokkaido">北海道</option>
+                <option value="aomori">青森県</option>
+                <option value="iwate">岩手県</option>
+            </select>    
+        </div>
+        <div>
+            <label for="municipalities">お住いの市区町村<span class="required">*必須</span></label>
+            <select name="municipalities" id="municipalities" required>
+                <option value="">---</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">メールアドレス<span class="required">*必須</span></label>
+            <input type="email" name="email" required placeholder="例) abcd123@example.com">
+        </div>
+        <div>
+            <label for="tel">電話番号<span class="not_required">*任意</span></label>
+            <input type="tel" name="tel" pattern="[0-9]{10,11}" placeholder="例)09012345678">
+        </div>
+        <div>
+            <input type="submit" value="送信">
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
