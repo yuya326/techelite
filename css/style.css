@@ -316,3 +316,7 @@ input::placeholder {
     width: 100%;/* 横幅いっぱいに */
     height: 100%;/* 縦幅いっぱいに */
 }
+
+#about,#service,#contact{
+    scroll-margin-top: 80px; /* リンクヵ所に移動した際に上にヘッダーの高さ分の余白を持つ */
+}
