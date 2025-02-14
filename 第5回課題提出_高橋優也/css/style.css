@@ -166,15 +166,17 @@ input::placeholder {
     .swiper .swiper-pagination{
         bottom: -10px !important;/*点3個の位置を下げる */
     }
-    .name_left,.seat_left,.email_left,.tel_left{
-        margin: 0 auto;/*確認画面の項目部分を左右中央 */
-        font-weight: bold;/*確認項目を縦並びにすると見にくいため、項目名を太字  */
-    }
-    .inquiry_list .name,.inquiry_list .seat,.inquiry_list .email,.inquiry_list .tel{
-        display: block !important;/* 項目名と内容を縦並びにする */
-        text-align: center;/* 内容を左右中央*/
+    .name .name_left,.seat .seat_left,.email .email_left,.tel .tel_left{
+        width: 125px;
     }
 
+}
+
+@media screen and (max-width: 400px){
+    body .inquiry_list .name,body .inquiry_list .seat,body .inquiry_list .email,body .inquiry_list .tel{
+        margin: 48px 10px 48px 10px;
+        font-size: small;
+    }
 }
 
 .thanks_text{
