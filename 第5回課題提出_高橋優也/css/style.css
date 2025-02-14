@@ -166,15 +166,12 @@ input::placeholder {
     .swiper .swiper-pagination{
         bottom: -10px !important;/*点3個の位置を下げる */
     }
-    .name .name_left,.seat .seat_left,.email .email_left,.tel .tel_left{
-        width: 125px;
-    }
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
     body .inquiry_list .name,body .inquiry_list .seat,body .inquiry_list .email,body .inquiry_list .tel{
-        margin: 48px 10px 48px 10px;
+        margin: 48px 20px 48px 20px;
         font-size: small;
     }
 }
@@ -387,6 +384,7 @@ iframe{
     padding-top: 100px; 
     margin:0 auto 48px auto;
     max-width: 700px;
+    justify-content: space-between;
 }
 
 .inquiry_confirmation{/*問い合わせ内容確認タイトル */
@@ -404,7 +402,7 @@ iframe{
 
 
 .name_left,.seat_left,.email_left,.tel_left{
-    width: 300px;/* 各項目名横幅 */
+    width: 45%;/* 各項目名横幅 */
 }
 
 .footer{ /* phpで作成のフッター */
@@ -474,13 +472,17 @@ iframe{
     color: #4a412d;
 }
 
-@media screen and (max-width: 600px){
-.name_left,.seat_left,.email_left,.tel_left{
-    width: 200px;/* 600px以下で確認画面の項目名の横幅を狭く→入力内容欄とぶつかると改行してしまう為 */
-}
-}
+
 
 body {
 	font-family: 'Noto Sans JP', sans-serif;/* 全文字フォントを指定のものに */
 	}
 
+
+/*word-break: break-all 要素内で改行、単語の途中でも改行
+word-break: keep-all 決められた文字(？やハイフンなど)がないと改行しない→要素をはみ出る場合がある
+overflow(word)-wrap: break-word 要素内で改行且つ、ハイフンでも改行され、他のものより若干見やすいので採用*/
+.name_space.seat_space,.email_space,.tel_space{
+    width: 55%;
+    word-wrap: break-word;
+}

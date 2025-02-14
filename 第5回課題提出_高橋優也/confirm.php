@@ -23,19 +23,19 @@ $tel = $_SESSION['tel'] ?? '';
         <div class="inquiry_confirmation">お問い合わせ内容確認</div>
         <div class="name">
             <div class="name_left">お名前</div>
-            <div> <?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?></div>
+            <div class="name_space"><?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?></div>
         </div>
         <div class="seat">
             <div class="seat_left">希望席</div>
-            <div><?= htmlspecialchars($seat, ENT_QUOTES, 'UTF-8') ?></div>
+            <div class="seat_space"><?= htmlspecialchars($seat, ENT_QUOTES, 'UTF-8') ?></div>
         </div>
         <div class="email">
             <div class="email_left">メールアドレス</div>
-            <div><?= htmlspecialchars($email, ENT_QUOTES, 'UTF-8') ?></div>
+            <div class="email_space"><?= htmlspecialchars($email, ENT_QUOTES, 'UTF-8') ?></div>
         </div>
         <div class="tel">
             <div class="tel_left">電話番号</div>
-            <div> <?= htmlspecialchars($tel, ENT_QUOTES, 'UTF-8')?: '未入力' ?></div>
+            <div class="tel?space"><?= htmlspecialchars($tel, ENT_QUOTES, 'UTF-8')?: '未入力' ?></div>
         </div>
     </div>
     <div class="confirm_button">
