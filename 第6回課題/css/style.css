@@ -50,9 +50,9 @@
     background-repeat: no-repeat;
     background-image:url("../img/PC/Group 183.png");
     background-position: center;
-    margin-top:-1px;
+    margin-top:-2px;
     background-size: cover;
-    padding-bottom: 95px;
+    padding-bottom: 96px;
 }
 
 .logo{
@@ -1646,14 +1646,13 @@ ul li::before {
 
 
 
-
-.section4{
+.section4 {
     background-image: url("../img/PC/Group 192.svg");
     background-repeat: no-repeat;
-    background-position: left top -25px;
+    background-size: 98% auto;
+    background-position: calc(50% - 16px) calc(50% - 117px);
     padding-bottom: 65px;
-} 
-
+}
 .exhibitors{
     max-width: 960px;
     margin: 0 auto;
@@ -1790,7 +1789,7 @@ ul li::before {
         margin-bottom: 42px;
         letter-spacing: 0.5px;
         position: relative;
-        right: -7px;
+        left: 7px;
     }
 }
 
@@ -1799,6 +1798,7 @@ ul li::before {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 185px;
+    background-position: center;
 }
 
 .schedule{
@@ -2266,6 +2266,7 @@ button{
     max-width: 842px;
     margin: 0 auto;
     padding-right: 41px;
+    padding-left: 41px;
 }
 
 .faq_list{
@@ -2298,7 +2299,6 @@ button{
     color: white; 
     line-height: 27px;
     margin-right: 12px; 
-    margin-left: 41px;
     flex-shrink: 0;
 }
 
