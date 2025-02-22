@@ -15,7 +15,7 @@
         <div class="top_content">
             <div class="sub_title">日本最大規模のフリーランスイベント</div>
             <div class="main_title"><img src="img/pc/kv.svg" alt="メインタイトル画像"></div>
-            <div class="mobile_dym"><img src="img/SP/sub_title.svg" alt=""></div>
+            <div class="mobile_dym"><img src="img/SP/sub_title.svg" alt="スポンサー画像"></div>
             <div class="date"><span class="day">3/4</span><span class="sat">Sat</span><span class="time">10:00-18:00</span></div>
             <div class="place">東京国際フォーラム<span class="gap">ホールE2</span></div>
             <div class="line_top">
@@ -155,74 +155,74 @@
             <div class="schedule_container">
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">10:00～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 218.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 218.svg" alt="DJ社長の写真"></div>
                     <div class="schedule_box_text">今、SNSを始めるなら</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 166.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 166.svg" alt="DJ社長の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">11:00～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 167.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 167.svg" alt="田端信太郎の写真"></div>
                     <div class="schedule_box_text">会社員で出世する人と独立して成功する人の適正について</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 195.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 195.svg" alt="田端信太郎の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">10:40～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 168.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 168.svg" alt="宋世羅の写真"></div>
                     <div class="schedule_box_text">営業出身のフリーランスの生存戦略</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 198.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 198.svg" alt="宋世羅の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">12:20～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 169.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 169.svg" alt="林尚弘の写真"></div>
                     <div class="schedule_box_text">無数のフリーランスに発注してわかった優秀な人の特徴</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 200.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 200.svg" alt="林尚弘の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">13:00～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 166.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 166.svg" alt="木下勝寿の写真"></div>
                     <div class="schedule_box_text">現役上場企業社長が語る<br>最新WEBマーケティング論</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 166 (1).svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 166 (1).svg" alt="木下勝寿の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">13:40～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 170.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 170.svg" alt="株本祐己の写真"></div>
                     <div class="schedule_box_text">月収300万円までのロードマップ</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 202.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 202.svg" alt="株本祐己の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">14:20～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/speaker_icon_7.png" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/speaker_icon_7.png" alt="やまもとりゅうけん、迫佑樹、青笹寛史の写真"></div>
                     <div class="schedule_box_text">SNSを伸ばした先に見える世界</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/speaker_icon_7.png" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/speaker_icon_7.png" alt="やまもとりゅうけん、迫佑樹、青笹寛史の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">15:00～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/inoue.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/inoue.svg" alt="井上貴裕の写真"></div>
                     <div class="schedule_box_text">元サイバーエージェント局長による広告業界の未来予想図</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/inoue.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/inoue.svg" alt="井上貴裕の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">15:40～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 211.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 211.svg" alt="板橋晟星、藍口康希の写真"></div>
                     <div class="schedule_box_text">エンジニアとして独立し、年収3000万円を超える方法</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 211.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 211.svg" alt="板橋晟星、藍口康希の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">16:20～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 178.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 178.svg" alt="岩井良明の写真"></div>
                     <div class="schedule_box_text">累計300人以上、起業家を見て感じた成功法則</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 210.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 210.svg" alt="岩井良明の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">17:00～</div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/Group 223.svg" alt=""></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/Group 223.svg" alt="島袋直樹の写真"></div>
                     <div class="schedule_box_text">フリーランスにおすすめのM＆Aトレンドを紹介</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 223.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 223.svg" alt="島袋直樹の写真"></div>
                 </div>
                 <div class="schedule_box">
                     <div class="schedule_box_ribbon">MC</div>
-                    <div class="schedule_box_img_sp"><img src="img/SP/Group 215.svg" alt=""></div>
-                    <div class="schedule_box_img_pc"><img src="img/PC/kane.svg" alt=""></div>
+                    <div class="schedule_box_img_sp"><img src="img/SP/Group 215.svg" alt="植本涼太郎、兼頭竜矢の写真"></div>
+                    <div class="schedule_box_img_pc"><img src="img/PC/kane.svg" alt="植本涼太郎、兼頭竜矢の写真"></div>
                 </div>
                 <button class="read-more">Read more</button>
                 <button class="close">Close</button>
